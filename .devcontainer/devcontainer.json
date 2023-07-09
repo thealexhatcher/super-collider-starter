@@ -1,0 +1,19 @@
+{
+	"name": "super-collider",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "bash",
+				"icon": "star"
+			}
+		},
+		"editor.formatOnSave": true
+	},
+	"remoteUser": "vscode",
+	"runArgs": [
+		"--privileged"
+	],
+	"extensions": []
+}
